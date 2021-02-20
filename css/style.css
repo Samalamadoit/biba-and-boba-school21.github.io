@@ -1,0 +1,202 @@
+.img-main {
+
+    width: 100%;
+
+}
+
+.a-out {
+
+    font-weight: 400;
+    margin-right: 20px;
+
+}
+
+.header_top code {
+
+    color: red;
+    font-size: 17px;
+
+}
+
+.title-main {
+
+    position: relative;
+    z-index: 1000;
+    background: aquamarine;
+    margin-bottom: -44px;
+
+}
+
+.pre-title {
+
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 20px 20px 20px;
+
+}
+
+.title {
+
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px;
+
+}
+
+.nickname {
+
+    color: #dc00ff;
+    font-size: 34px;
+    font-weight: 800;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.nickname div {
+
+    background: #e9ecefa3;
+    padding: 5px 15px;
+
+}
+
+.menu {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.run {
+
+    color: #1e7e34;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.run-line h3 {
+
+    text-align: center;
+
+}
+
+.run-line h3 span
+{
+
+    font-size: 17px;
+
+}
+
+.run-line {
+
+    margin-bottom: 30px;
+
+}
+
+.menu a + a {
+    margin-left: 20px;
+
+}
+
+.addres {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+.f-image img {
+
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+}
+
+.f-text-lol {
+
+    overflow: scroll;
+    padding: 10px 20px;
+
+}
+
+.feedback-item {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+
+.from-who {
+
+    position: absolute;
+    left: 220px;
+    bottom: 0;
+
+}
+
+.f-text {
+
+    width: 100%;
+    max-width: 600px;
+    margin-left: 20px;
+    font-weight: 500;
+
+}
+
+.addres p {
+
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+footer {
+
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+}
+
+footer p {
+
+
+
+}
+
+.box {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #444444;
+    overflow: hidden;
+}
+.space {
+    display: inline-block;
+    width: 100px;
+}
+.box-pointer {
+    position: absolute;
+}
+.box-pointer-hidden {
+    display: none;
+}
+.box-pointer2 {
+    left: 0;
+    right: 0;
+    transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1);
+}
+.cursor {
+    cursor: url("./img/207279_normal.png"), auto;;
+}
