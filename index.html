@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ft_putchar</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
@@ -10,11 +11,8 @@
 
 </head>
 <body>
-<!--<div id="box1" class="box">1. Классика-->
-<!--    <img id="pointer1" class="box-pointer box-pointer-hidden" src="./img/207279_normal.png">-->
-<!--    <div class="ch"></div>-->
-<!--</div>-->
     <div class="container">
+        <button class="adm" data-toggle="modal"  data-target="#myModal2" >ДЛЯ АДМИНИСТРАЦИИ</button>
         <div class="header_top">
             <pre>
                 <code>
@@ -68,6 +66,41 @@
                 <p>GENOM i4\i6</p>
             </div>
         </div>
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            ТЫК
+        </button>
+        <a name="admin"></a>
     </footer>
+    <!-- Модальное окно -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Ну что ДОТЫКАЛСЯ!</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/2021-02-21_18-37-44.png">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Получть тиж</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+                    <h3 class="adm-h">Для Администрации Школы</h3>
+                    <p class="adm-p">Всё это является лишь шуткой. Мы не предоставляем никаких улуг (соре). Мы просто веселые ребята.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

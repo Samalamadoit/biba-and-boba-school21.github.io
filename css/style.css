@@ -175,28 +175,31 @@ footer p {
 
 }
 
-.box {
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    border: 1px solid #444444;
-    overflow: hidden;
+.adm {
+
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    background: 0;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    background: green;
+
 }
-.space {
-    display: inline-block;
-    width: 100px;
+
+.adm-h {
+
+    text-align: center;
+    color: red;
+
 }
-.box-pointer {
-    position: absolute;
-}
-.box-pointer-hidden {
-    display: none;
-}
-.box-pointer2 {
-    left: 0;
-    right: 0;
-    transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1);
-}
-.cursor {
-    cursor: url("./img/207279_normal.png"), auto;;
+
+.adm-p {
+
+    color: red;
+    text-align: center;
+
 }
