@@ -203,3 +203,68 @@ footer p {
     text-align: center;
 
 }
+
+
+.marafon h1, .marafon h3 {
+
+    text-align: center;
+
+}
+
+.image-mar img {
+
+    display: block;
+    width: 100%;
+
+}
+
+.image-mar h3 {
+
+    text-align: center;
+    margin: 30px 0;
+
+}
+
+.image-mar ul {
+
+    margin: 30px 0;
+
+}
+
+.program-m {
+
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 40px 0;
+
+}
+
+.program-of-m h3 {
+
+    font-size: 32px;;
+
+}
+
+.program-of-m p {
+
+font-size: 22px;
+
+}
+
+.program-of-m ul li {
+
+font-size: 22px;
+
+}
+
+.bg-new {
+
+    padding: 50px 0;
+    background: #ccc;
+
+}
