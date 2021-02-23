@@ -277,3 +277,36 @@ font-size: 22px;
     background: #ccc;
 
 }
+
+.what-happend_item-img  {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.what-happend_item {
+
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+
+}
+
+.what-happend_item-img img {
+
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+.what-happend_item-time {
+
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    color: coral;
+    margin: 20px 0;
+
+}
