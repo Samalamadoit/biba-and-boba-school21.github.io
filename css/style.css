@@ -294,6 +294,12 @@ font-size: 22px;
 
 }
 
+.what-happend_item:last-child {
+
+    border-bottom: 0;
+
+}
+
 .what-happend_item-img img {
 
     max-width: 300px;
